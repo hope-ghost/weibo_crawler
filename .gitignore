@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+log/
+weibo/
+*.db
+js.json
+user_id_list.txt
+config.json

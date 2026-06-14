@@ -1,0 +1,48 @@
+{
+    "user_id_list": "user_id_list.txt",
+    "only_crawl_original": 0,
+    "since_date": "1900-01-01",
+    "start_page": 1,
+    "page_weibo_count": 10,
+    "write_mode": [
+        "csv"
+    ],
+    "original_pic_download": 1,
+    "retweet_pic_download": 0,
+    "original_video_download": 1,
+    "retweet_video_download": 0,
+    "original_live_photo_download": 1,
+    "retweet_live_photo_download": 0,
+    "download_comment": 1,
+    "comment_max_download_count": 100,
+    "download_repost": 0,
+    "repost_max_download_count": 100,
+    "user_id_as_folder_name": 0,
+    "remove_html_tag": 1,
+    "cookie": "your_weibo_cookie_here",
+    "mysql_config": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "your_password",
+        "charset": "utf8mb4"
+    },
+    "store_binary_in_sqlite": 0,
+    "mongodb_URI": "mongodb://[username:password@]host[:port][/[defaultauthdb][?options]]",
+    "post_config": {
+        "api_url": "https://api.example.com",
+        "api_token": ""
+    },
+    "crawl_mode": "topic",
+    "query_list": [],
+    "search_keywords": [],
+    "max_search_count": 100,
+    "search_topics": [],
+    "max_topic_search_count": 100,
+    "end_date": "2026-01-01",
+    "max_hot_topics": 50,
+    "posts_per_hot_topic": 50,
+    "use_all_hot_topics": true,
+    "selected_hot_topics": [],
+    "weibo_url": ""
+}
